@@ -11,10 +11,31 @@ $ npm install --save express-batching
 ## Usage
 
 ```js
-var expressBatching = require('express-batching');
+const expressBatching = require('express-batching');
+const app = require('express')();
+const catRoutes = require('./catRoutes');
 
-expressBatching('Rainbow');
+// normal
+app.get('/cats', catRoutes.findAll);
+
+// with batching
+app.get('/cats', expressBatching(catRoutes.findAll));
+
+// accepting a hash function for parameterized requests
+app.get('/cats/:id', expressBatching(req => req.params.id, catRoutes.findOne));
+
 ```
+
+## Contributing
+
+Contribute!
+
+## Testing
+
+```bash
+mocha --require clarify lib/index.test.js --watch
+```
+
 ## License
 
 Apache-2.0 © [blugavere](http://benlugavere.com)
