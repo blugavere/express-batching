@@ -1,4 +1,4 @@
-# express-batching [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status](https://coveralls.io/repos/github/blugavere/express-batching/badge.svg?branch=master)](https://coveralls.io/github/blugavere/express-batching?branch=master)[![NPM Downloads](https://img.shields.io/npm/dm/repositories.svg?style=flat)](https://www.npmjs.com/package/express-batching)
+# express-batching [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status](https://coveralls.io/repos/github/blugavere/express-batching/badge.svg?branch=master)](https://coveralls.io/github/blugavere/express-batching?branch=master)[![NPM Downloads](https://img.shields.io/npm/dm/express-batching.svg?style=flat)](https://www.npmjs.com/package/express-batching)
 
 > A small higher order component for in-process batching and caching of API requests
 
