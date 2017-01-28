@@ -1,7 +1,7 @@
 {
   "name": "express-batching",
   "version": "0.0.0",
-  "description": "A lightweight middleware module for batching and caching API requests",
+  "description": "A small higher order component for in-process batching and caching of API requests",
   "homepage": "",
   "author": {
     "name": "blugavere",
