@@ -1,6 +1,6 @@
 {
   "name": "express-batching",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A small higher order component for in-process batching and caching of API requests",
   "homepage": "",
   "author": {
