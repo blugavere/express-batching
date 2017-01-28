@@ -1,6 +1,6 @@
 # express-batching [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status](https://coveralls.io/repos/github/blugavere/express-batching/badge.svg?branch=master)](https://coveralls.io/github/blugavere/express-batching?branch=master)
 
-> A small middleware module for batching and caching API requests
+> A small higher order component for in-process batching and caching of API requests
 
 ## Installation
 
